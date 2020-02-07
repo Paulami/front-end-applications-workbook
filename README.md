@@ -15,28 +15,37 @@ const starWarsAPI = "https://swapi.co/api/"
 
 Star wars story page!!!! w/ rotating in CSS craziness!
 
+[_template.html](workbook/_template.html)
+* staring point
+
+[00_setup](workbook/00_setup/index.html)
+**Challenge**
+* Create a JavaScript file and include it in the HTML
+* Create a CSS file and include it in the HTML
+* Add boilerplate CSS
+* Add boilerplate JS
+
 1. Setup
    1. create an html, css, and js file 
 2. Setup 2:
    1. add the boilerplate html 
    2. add the boilerplate CSS
 3. js_events-01
-   1. window.onload
-4. 
+   1. window.onload 
+4. adding dom elements
+5. removing dom elements
+6.  updating dom elements
+7.  events - onclick
+8.  events - onchange (like an input)
+9.  fetch API - promises
+10. fetch API - async/await
+11. functional programming: json -> HTML
+12. API -> JSON -> HTML
+13. JS code organization: multiple components and files
 
 
-5. Template strings
-6. Arrow functions
-7. Array functions
-8. Object -> array functions
-9. window.onload
-10. adding dom elements
-11. removing dom elements
-12. updating dom elements
-13. events - onclick
-14. events - onchange (like an input)
-15. fetch API - promises
-16. fetch API - async/await
-17. functional programming: json -> HTML
-18. API -> JSON -> HTML
-19. JS code organization: multiple components and files
+// weave these into the main content
+14. Template strings
+15. Arrow functions
+16. Array functions
+17. Object -> array functions

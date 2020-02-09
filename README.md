@@ -28,15 +28,28 @@ Star wars story page!!!! w/ rotating in CSS craziness!
 **Challenge**
 * Add an event handler tp the JS that is called when the DOM is loaded
 
-[02-add-to-dom](workbook/02_add-to-dom/index.html)
+[02_add-to-dom](workbook/02_add-to-dom/index.html)
 **Challenge**
 * Add a <p> tag to the <body>
 
-[03-onclick-event](workbook/02_add-to-dom/index.html)
+[03_onclick-event](workbook/03_onclick-event/index.html)
 **Challenge**
 * Create a <button> in HTML
 * Create an `onclick` handler by selecting the button
 * When this button is pressed, add a <p> to the body
+
+[04_remove-from-dom](workbook/04_remove-from-dom/index.html)
+**Challenge**
+* Create a <div> that contains a <p> and a <button>
+* Create an `onclick` handler by selecting the button
+* When that <button> is pressed, remove the whole <div>
+
+[05_update-dom-element](workbook/05_update-dom-element/index.html)
+**Challenge**
+* Create a <div> that contains a <p> and a <button>
+* Create an `onclick` handler by selecting the button
+* When that <button> is pressed, change the text using template strings
+* When the <button> is pressed, change the background color to a random color
 
 1. Setup
    1. create an html, css, and js file 

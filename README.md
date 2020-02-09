@@ -23,7 +23,20 @@ Star wars story page!!!! w/ rotating in CSS craziness!
 * Create a JavaScript file and include it in the HTML
 * Create a CSS file and include it in the HTML
 * Add boilerplate CSS
-* Add boilerplate JS
+
+[01_dom-loaded](workbook/01_dom-loaded/index.html)
+**Challenge**
+* Add an event handler tp the JS that is called when the DOM is loaded
+
+[02-add-to-dom](workbook/02_add-to-dom/index.html)
+**Challenge**
+* Add a <p> tag to the <body>
+
+[03-onclick-event](workbook/02_add-to-dom/index.html)
+**Challenge**
+* Create a <button> in HTML
+* Create an `onclick` handler by selecting the button
+* When this button is pressed, add a <p> to the body
 
 1. Setup
    1. create an html, css, and js file 
@@ -33,9 +46,9 @@ Star wars story page!!!! w/ rotating in CSS craziness!
 3. js_events-01
    1. window.onload 
 4. adding dom elements
-5. removing dom elements
-6.  updating dom elements
-7.  events - onclick
+5. event handlers : onClick
+6. removing dom elements
+7.  updating dom elements
 8.  events - onchange (like an input)
 9.  fetch API - promises
 10. fetch API - async/await

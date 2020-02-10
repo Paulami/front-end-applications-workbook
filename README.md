@@ -14,7 +14,7 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
   
 [boilerplate](workbook/boilerplate)
 
-### Basic DOM
+### 01 Basic DOM
 
 [01_dom-loaded](workbook/01_dom-loaded/index.html)
 
@@ -120,6 +120,8 @@ Final solution for DOM example
 **Challenge**
 * Using the [JSON Placeholder API](https://jsonplaceholder.typicode.com),
 * Recreate the TODO app, but data is pulled from this API
+
+**Advanced**
 
 [17_create](workbook/17_create/index.html)
 **Challenge**

@@ -87,13 +87,22 @@ Star wars story page!!!! w/ rotating in CSS craziness!
 * use the fetch API to request the image from JS
 * Set the src of an image equal to the response image url
 
-[10_fetch-api-async-await]
+[10_fetch-api-async-await](workbook/10_fetch-api-async-await/index.html)
+**Challenge**
+* Create a <button> that says "Random dog"
+* Add an <img> to hold this image
+* Figure out the URL to fetch a random dog image from the [dog.ceo API](https://dog.ceo/dog-api/)
+* Add an event handler to the button to fetch the image
+* use the fetch API to request the image from JS, using async/await
+* Set the src of an image equal to the response image url
 
-1.  fetch API - promises
-2.  fetch API - async/await
-3.  functional programming: json -> HTML
-4.  API -> JSON -> HTML
-5.  JS code organization: multiple components and files
+[11_star-wars-api](workbook/11_star-wars-api)
+* Get a list of characters from the Star Wars API
+* Write a function that takes this list as JSON and returns a string
+* Set this string to the innerHTML of a div
+
+
+1.  JS code organization: multiple components and files
 
 
 // weave these into the main content

@@ -2,25 +2,23 @@ window.addEventListener('DOMContentLoaded', function () {
   bindButton();
 });
 
-// create array to store todos
-const todos = [];
-
 function bindButton() {
-  const button = document.getElementById("add-todo");
-  const input = document.getElementById("todo-input");
-  const list = document.getElementById("todo-list");
+  const button = document.getElementById("random-dog");
+  const img = document.getElementById("dog-img");
+  const URL = "https://dog.ceo/api/breeds/image/random";
   button.onclick = function () {
-    const todo = input.value;
-    todos.push(todo);
-    let todoHTML = "";
-
-    // forEach is like a for loop but better
-    // the function here is called an iterator function
-    todos.forEach(function (todo) {
-      todoHTML += `<li>${todo}</li>`;
-    });
-    
-    list.innerHTML = todoHTML;
-    input.value = "";
+    // remember https://p5js.org/reference/#/p5/loadJSON ?
+    // the function in .then is called when the API
+    // request is completed
+    // this is called a Promise
+    // the () => {} is special shorthand for function
+    fetch(URL).then((response) => {
+      // response.JSON also creates a Promise
+      return response.json();
+      // you can chain Promises together like this
+    }).then((dog) => {
+      const dogURL = dog.message;
+      img.src = dogURL;
+    })
   };
 }

@@ -5,16 +5,6 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 ## Overview
 
-JSON placeholder example app 
-https://jsonplaceholder.typicode.com/
-
-https://swapi.co/documentation
-
-const ronSwansonAPI = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
-const starWarsAPI = "https://swapi.co/api/"
-
-Star wars story page!!!! w/ rotating in CSS craziness!
-
 [_template.html](workbook/_template.html)
 * staring point
 
@@ -96,17 +86,23 @@ Star wars story page!!!! w/ rotating in CSS craziness!
 * use the fetch API to request the image from JS, using async/await
 * Set the src of an image equal to the response image url
 
-[11_star-wars-api](workbook/11_star-wars-api)
-* Get a list of characters from the Star Wars API
+[11_star-wars-api](workbook/11_star-wars-api/index.html)
+**Challenge**
+* Get a list of characters from the [Star Wars API](https://swapi.co/api/)
 * Write a function that takes this list as JSON and returns a string
 * Set this string to the innerHTML of a div
 
+[12_code-organization](workbook/12_code-organization/index.html)
+**Challenge**
+* Use an <input> to change the `search` parameter of the star wars api
+* Put different components/event handlers in different files
 
-1.  JS code organization: multiple components and files
+[13_final](workbook/13_final/index.html)
+No challenge, just the final outcome :)
 
 
-// weave these into the main content
-14. Template strings
-15. Arrow functions
-16. Array functions
-17. Object -> array functions
+## APIs
+* https://jsonplaceholder.typicode.com/
+* https://swapi.co/documentation
+* https://ron-swanson-quotes.herokuapp.com/v2/quotes
+* https://dog.ceo/dog-api/

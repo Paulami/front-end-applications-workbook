@@ -125,6 +125,10 @@ Final solution for DOM example
 **Challenge**
 * Create a todo by making a POST request to the JSON Placeholder API
 
+[18_update](workbook/17_create/index.html)
+**Challenge**
+* Create a todo by making a POST request to the JSON Placeholder API
+
 ### Dog API
 [boilerplate](workbook/dog-api/boilerplate)
 

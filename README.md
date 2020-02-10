@@ -82,10 +82,8 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
   * change the text using template strings
   * change the background color to a random color
 
-[06_dom-final](workbook/05_dom-final_/index.html)
-Final solution for DOM example
 
-[inner-html](workbook/basic-dom/inner-html)
+[06_inner-html](workbook/basic-dom/06_inner-html)
 **Extra Challenge**
 * Create a div that contains a `<input type="text">` and a button  - Give them a meaningful class names.
 * Create another empty `<div>` and give it the class name "wisdom".
@@ -94,17 +92,20 @@ Final solution for DOM example
 * Add an event listener to your `<button>` so that when you `click` it, the value from the `<input>` gets inserted into a `<p>` tag and append it to the `.wisdom` div. 
 * Make sure that the `<input>` value is cleared when the button is clicked.
 
+[07_dom-final](workbook/07_dom-final/index.html)
+Final solution for DOM example
+
 ### Todo List
 [boilerplate](workbook/boilerplate)
 
-[07_input-value](workbook/07_input-value/index.html)
+[08_input-value](workbook/08_input-value/index.html)
 * Add a header that says `"Todo List"`
 * Create a div that contains a `<input type="text">` and a button - Give it a meaningful class name.
 * Create an `<ul>` to contain the todos from your todo list
 * Add an event listener to that button so that when you click the `<button>`, the text from the inputs gets inserted onto the body as a `<li>`
 * Make sure when you click the button, the `<input>` value is cleared
 
-[08_for-each](workbook/08_for-each/index.html)
+[09_for-each](workbook/09_for-each/index.html)
 **Challenge**
 
 * Create a div that contains a `<input type="text">` and a button
@@ -114,19 +115,19 @@ Final solution for DOM example
 * The `<li>`'s are inserted into the `<ul>` using innerHTML
 * When you click the button, the `<input>` value is cleared
 
-[15_read](workbook/13_read/index.html)
+[16_read](workbook/16_read/index.html)
 **Challenge**
 * Using the [JSON Placeholder API](https://jsonplaceholder.typicode.com),
 * Recreate the TODO app, but data is pulled from this API
 
-[16_create]
+[17_create](workbook/17_create/index.html)
 **Challenge**
 * Create a todo by making a POST request to the JSON Placeholder API
 
 ### Dog API
 [boilerplate](workbook/dog-api/boilerplate)
 
-[09_fetch-api](workbook/dog-api/09_fetch-api/index.html)
+[10_fetch-api](workbook/dog-api/10_fetch-api/index.html)
 **Challenge**
 
 * Create a `<button>` that says "Random dog"
@@ -136,7 +137,7 @@ Final solution for DOM example
 * use the fetch API to request the image from JS
 * Set the src of an image equal to the response image url
 
-[10_fetch-api-async-await](workbook/dog-api/10_fetch-api-async-await/index.html)
+[11_fetch-api-async-await](workbook/dog-api/11_fetch-api-async-await/index.html)
 **Challenge**
 
 * Create a `<button>` that says "Random dog"
@@ -146,26 +147,26 @@ Final solution for DOM example
 * use the fetch API to request the image from JS, using async/await
 * Set the src of an image equal to the response image url
 
-[11_dog-final](workbook/dog-api/11_dog-final)
+[12_dog-final](workbook/dog-api/12_dog-final)
 Final solution of dog api example
 
 ### Star Wars API
 [boilerplate](workbook/star-wars-api/boilerplate)
 
-[12_star-wars-api](workbook/star-wars-api/12_star-wars-api/index.html)
+[13_star-wars-api](workbook/star-wars-api/13_star-wars-api/index.html)
 **Challenge**
 
 * Get a list of characters from the [Star Wars API](https://swapi.co/api/)
 * Write a function that takes this list as JSON and returns a string
 * Set this string to the innerHTML of a div
 
-[13_code-organization](workbook/star-wars-api/13_code-organization/index.html)
+[14_code-organization](workbook/star-wars-api/14_code-organization/index.html)
 **Challenge**
 
 * Use an `<input>` to change the `search` parameter of the star wars api
 * Put different components/event handlers in different files
 
-[14_star-wars-final](workbook/star-wars-api/14_star-wars-final)
+[15_star-wars-final](workbook/star-wars-api/15_star-wars-final)
 Final solution for Star Wars app
 
 ## APIs

@@ -93,27 +93,29 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 [07_inner-html](workbook/07_inner-html/index.html)
 **Challenge**
+
 * Create a div that contains a `<input type="text">` and a button  - Give them a meaningful class names.
-* Create another empty `<div>`
+* Create another empty `<div>` and give it the class name "wisdom".
 * Add placeholder text to the `<input>`
 * Add a header that says "Daily Wisdom"
-* When you click the `<button>`, the text is inserted into a `<p>` tag using a template string
-* The `<p>` gets inserted into the innerHTML of a different `<div>`
-* When you click the button, the `<input>` value is cleared
+* Add an event listener to your `<button>` so that when you `click` it, the value from the `<input>` gets inserted into a `<p>` tag and append it to the `.wisdom` div. 
+* Make sure that the `<input>` value is cleared when the button is clicked.
 
 [08_for-each](workbook/08_for-each/index.html)
 **Challenge**
-* Create a div that contains a <input type="text"> and a button
+
+* Create a div that contains a `<input type="text">` and a button
 * Add a header that says "Todo List"
-* When you click the <button>, the text is pushed into an array
-* The array is converted to a list of <li> strings
-* The <li>'s are inserted into the <ul> using innerHTML
-* When you click the button, the <input> value is cleared
+* When you click the `<button>`, the text is pushed into an array
+* The array is converted to a list of `<li>` strings
+* The `<li>`'s are inserted into the `<ul>` using innerHTML
+* When you click the button, the `<input>` value is cleared
 
 [09_fetch-api](workbook/09_fetch-api/index.html)
 **Challenge**
-* Create a <button> that says "Random dog"
-* Add an <img> to hold this image
+
+* Create a `<button>` that says "Random dog"
+* Add an `<img>` to hold this image
 * Figure out the URL to fetch a random dog image from the [dog.ceo API](https://dog.ceo/dog-api/)
 * Add an event handler to the button to fetch the image
 * use the fetch API to request the image from JS
@@ -121,8 +123,9 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 [10_fetch-api-async-await](workbook/10_fetch-api-async-await/index.html)
 **Challenge**
-* Create a <button> that says "Random dog"
-* Add an <img> to hold this image
+
+* Create a `<button>` that says "Random dog"
+* Add an `<img>` to hold this image
 * Figure out the URL to fetch a random dog image from the [dog.ceo API](https://dog.ceo/dog-api/)
 * Add an event handler to the button to fetch the image
 * use the fetch API to request the image from JS, using async/await
@@ -130,13 +133,15 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 [11_star-wars-api](workbook/11_star-wars-api/index.html)
 **Challenge**
+
 * Get a list of characters from the [Star Wars API](https://swapi.co/api/)
 * Write a function that takes this list as JSON and returns a string
 * Set this string to the innerHTML of a div
 
 [12_code-organization](workbook/12_code-organization/index.html)
 **Challenge**
-* Use an <input> to change the `search` parameter of the star wars api
+
+* Use an `<input>` to change the `search` parameter of the star wars api
 * Put different components/event handlers in different files
 
 [13_final](workbook/13_final/index.html)

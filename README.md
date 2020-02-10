@@ -5,15 +5,16 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 ## Overview
 
-[_template.html](workbook/_template.html)
-* staring point
-
-[00_setup](workbook/00_setup/index.html)
+[00_create-boilerplate](workbook/00_create-boilerplate)
 **Challenge**
 
 * Create a JavaScript file and include it in the HTML
 * Create a CSS file and include it in the HTML
 * Add boilerplate CSS
+  
+[boilerplate](workbook/boilerplate)
+
+### Basic DOM
 
 [01_dom-loaded](workbook/01_dom-loaded/index.html)
 
@@ -52,28 +53,27 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
    ```
 
 
-
 [02_add-to-dom](workbook/02_add-to-dom/index.html)
 **Challenge**
 
 * Add a `<p>` tag to the `<body>`. Add some text inside.
 * Give the `<p>` a meaningful class name.
 
-[03_onclick-event](workbook/03_onclick-event/index.html)
+[03_onclick-event](workbook/basic-dom/02_onclick-event/index.html)
 **Challenge**
 
 * Create a `<button>` in HTML - Give it a meaningful class name.
 * Create an `onclick` handler by selecting the button by its class name.
 * When this button is pressed, add a `<p>` to the body that has some text inside.
 
-[04_remove-from-dom](workbook/04_remove-from-dom/index.html)
+[04_remove-from-dom](workbook/basic-dom/03_remove-from-dom/index.html)
 **Challenge**
 
 * Create a `<div>` that contains a `<p>` and a `<button>` - Give them a meaningful class names.
 * Select the button by its class name and add an `onclick` handler function
 * When that `<button>` is pressed, remove the whole `<div>`
 
-[05_update-dom-element](workbook/05_update-dom-element/index.html)
+[05_update-dom-element](workbook/basic-dom/04_update-dom-element/index.html)
 **Challenge**
 
 * Create a `<div>` that contains a `<p>` and a `<button>` - Give them meaningful class names.
@@ -82,18 +82,9 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
   * change the text using template strings
   * change the background color to a random color
 
-[06_input-value](workbook/06_input-value/index.html)
-**Challenge**
 
-* Add a header that says `"Todo List"`
-* Create a div that contains a `<input type="text">` and a button - Give it a meaningful class name.
-* Create an `<ul>` to contain the todos from your todo list
-* Add an event listener to that button so that when you click the `<button>`, the text from the inputs gets inserted onto the body as a `<li>`
-* Make sure when you click the button, the `<input>` value is cleared
-
-[07_inner-html](workbook/07_inner-html/index.html)
-**Challenge**
-
+[06_inner-html](workbook/basic-dom/06_inner-html)
+**Extra Challenge**
 * Create a div that contains a `<input type="text">` and a button  - Give them a meaningful class names.
 * Create another empty `<div>` and give it the class name "wisdom".
 * Add placeholder text to the `<input>`
@@ -101,7 +92,20 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 * Add an event listener to your `<button>` so that when you `click` it, the value from the `<input>` gets inserted into a `<p>` tag and append it to the `.wisdom` div. 
 * Make sure that the `<input>` value is cleared when the button is clicked.
 
-[08_for-each](workbook/08_for-each/index.html)
+[07_dom-final](workbook/07_dom-final/index.html)
+Final solution for DOM example
+
+### Todo List
+[boilerplate](workbook/boilerplate)
+
+[08_input-value](workbook/08_input-value/index.html)
+* Add a header that says `"Todo List"`
+* Create a div that contains a `<input type="text">` and a button - Give it a meaningful class name.
+* Create an `<ul>` to contain the todos from your todo list
+* Add an event listener to that button so that when you click the `<button>`, the text from the inputs gets inserted onto the body as a `<li>`
+* Make sure when you click the button, the `<input>` value is cleared
+
+[09_for-each](workbook/09_for-each/index.html)
 **Challenge**
 
 * Create a div that contains a `<input type="text">` and a button - Give them a meaningful class names.
@@ -112,7 +116,19 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 * Use the `.forEach()` method on your array to iteratively append `<li>` strings to your `<ul>` with the content from the text in your "todos" array.
 * Make sure the value of your `<input>` is cleared when the button is clicked.
 
-[09_fetch-api](workbook/09_fetch-api/index.html)
+[16_read](workbook/16_read/index.html)
+**Challenge**
+* Using the [JSON Placeholder API](https://jsonplaceholder.typicode.com),
+* Recreate the TODO app, but data is pulled from this API
+
+[17_create](workbook/17_create/index.html)
+**Challenge**
+* Create a todo by making a POST request to the JSON Placeholder API
+
+### Dog API
+[boilerplate](workbook/dog-api/boilerplate)
+
+[10_fetch-api](workbook/dog-api/10_fetch-api/index.html)
 **Challenge**
 
 * Create a `<button>` that says "Random dog" - give it a meaningful class name
@@ -121,7 +137,7 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 * Add an event handler to the button that triggers a GET request using `fetch()`. Use the `async/await` syntax to create an async function that will await the data from the API call. 
 * Set the src of an image equal to the response image url.
 
-[10_fetch-api-async-await](workbook/10_fetch-api-async-await/index.html)
+[11_fetch-api-async-await](workbook/dog-api/11_fetch-api-async-await/index.html)
 **Challenge**
 
 * Create a `<button>` that says "Random dog"
@@ -131,22 +147,27 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 * use the fetch API to request the image from JS, using async/await
 * Set the src of an image equal to the response image url
 
-[11_star-wars-api](workbook/11_star-wars-api/index.html)
+[12_dog-final](workbook/dog-api/12_dog-final)
+Final solution of dog api example
+
+### Star Wars API
+[boilerplate](workbook/star-wars-api/boilerplate)
+
+[13_star-wars-api](workbook/star-wars-api/13_star-wars-api/index.html)
 **Challenge**
 
 * Get a list of characters from the [Star Wars API](https://swapi.co/api/)
 * Write a function that takes this list as JSON and returns a string
 * Set this string to the innerHTML of a div
 
-[12_code-organization](workbook/12_code-organization/index.html)
+[14_code-organization](workbook/star-wars-api/14_code-organization/index.html)
 **Challenge**
 
 * Use an `<input>` to change the `search` parameter of the star wars api
 * Put different components/event handlers in different files
 
-[13_final](workbook/13_final/index.html)
-No challenge, just the final outcome :)
-
+[15_star-wars-final](workbook/star-wars-api/15_star-wars-final)
+Final solution for Star Wars app
 
 ## APIs
 * https://jsonplaceholder.typicode.com/

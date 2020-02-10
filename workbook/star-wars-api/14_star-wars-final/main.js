@@ -11,7 +11,6 @@ function bindSearchButton() {
   const button = document.getElementById("search-characters");
   const input = document.getElementById("character-input");
   const resultsContainer = document.getElementById("results-container");
-  const baseUrl = "https://swapi.co/api/people/";
 
   button.onclick = async () => {
     const searchTerm = input.value;

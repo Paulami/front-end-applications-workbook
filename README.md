@@ -51,23 +51,49 @@ Star wars story page!!!! w/ rotating in CSS craziness!
 * When that <button> is pressed, change the text using template strings
 * When the <button> is pressed, change the background color to a random color
 
-1. Setup
-   1. create an html, css, and js file 
-2. Setup 2:
-   1. add the boilerplate html 
-   2. add the boilerplate CSS
-3. js_events-01
-   1. window.onload 
-4. adding dom elements
-5. event handlers : onClick
-6. removing dom elements
-7.  updating dom elements
-8.  events - onchange (like an input)
-9.  fetch API - promises
-10. fetch API - async/await
-11. functional programming: json -> HTML
-12. API -> JSON -> HTML
-13. JS code organization: multiple components and files
+[06_input-value](workbook/06_input-value/index.html)
+**Challenge**
+* Create a div that contains a <input type="text"> and a button
+* Add a header that says "Todo List"
+* When you click the <button>, the text gets inserted into a <li>
+* The <li> is appended to the end of a <ul>
+* When you click the button, the <input> value is cleared
+
+[07_inner-html](workbook/07_inner-html/index.html)
+**Challenge**
+* Create a div that contains a <input type="text"> and a button
+* Create another empty <div>
+* Add placeholder text to the <input>
+* Add a header that says "Daily Wisdom"
+* When you click the <button>, the text is inserted into a <p> tag using a template string
+* The <p> gets inserted into the innerHTML of a different <div>
+* When you click the button, the <input> value is cleared
+
+[08_for-each](workbook/08_for-each/index.html)
+**Challenge**
+* Create a div that contains a <input type="text"> and a button
+* Add a header that says "Todo List"
+* When you click the <button>, the text is pushed into an array
+* The array is converted to a list of <li> strings
+* The <li>'s are inserted into the <ul> using innerHTML
+* When you click the button, the <input> value is cleared
+
+[09_fetch-api](workbook/09_fetch-api/index.html)
+**Challenge**
+* Create a <button> that says "Random dog"
+* Add an <img> to hold this image
+* Figure out the URL to fetch a random dog image from the [dog.ceo API](https://dog.ceo/dog-api/)
+* Add an event handler to the button to fetch the image
+* use the fetch API to request the image from JS
+* Set the src of an image equal to the response image url
+
+[10_fetch-api-async-await]
+
+1.  fetch API - promises
+2.  fetch API - async/await
+3.  functional programming: json -> HTML
+4.  API -> JSON -> HTML
+5.  JS code organization: multiple components and files
 
 
 // weave these into the main content

@@ -10,6 +10,7 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 [00_setup](workbook/00_setup/index.html)
 **Challenge**
+
 * Create a JavaScript file and include it in the HTML
 * Create a CSS file and include it in the HTML
 * Add boilerplate CSS
@@ -54,44 +55,51 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 
 [02_add-to-dom](workbook/02_add-to-dom/index.html)
 **Challenge**
-* Add a <p> tag to the <body>
+
+* Add a `<p>` tag to the `<body>`. Add some text inside.
+* Give the `<p>` a meaningful class name.
 
 [03_onclick-event](workbook/03_onclick-event/index.html)
 **Challenge**
-* Create a <button> in HTML
-* Create an `onclick` handler by selecting the button
-* When this button is pressed, add a <p> to the body
+
+* Create a `<button>` in HTML - Give it a meaningful class name.
+* Create an `onclick` handler by selecting the button by its class name.
+* When this button is pressed, add a `<p>` to the body that has some text inside.
 
 [04_remove-from-dom](workbook/04_remove-from-dom/index.html)
 **Challenge**
-* Create a <div> that contains a <p> and a <button>
-* Create an `onclick` handler by selecting the button
-* When that <button> is pressed, remove the whole <div>
+
+* Create a `<div>` that contains a `<p>` and a `<button>` - Give them a meaningful class names.
+* Select the button by its class name and add an `onclick` handler function
+* When that `<button>` is pressed, remove the whole `<div>`
 
 [05_update-dom-element](workbook/05_update-dom-element/index.html)
 **Challenge**
-* Create a <div> that contains a <p> and a <button>
+
+* Create a `<div>` that contains a `<p>` and a `<button>` - Give them meaningful class names.
 * Create an `onclick` handler by selecting the button
-* When that <button> is pressed, change the text using template strings
-* When the <button> is pressed, change the background color to a random color
+* When that `<button>` is pressed: 
+  * change the text using template strings
+  * change the background color to a random color
 
 [06_input-value](workbook/06_input-value/index.html)
 **Challenge**
-* Create a div that contains a <input type="text"> and a button
-* Add a header that says "Todo List"
-* When you click the <button>, the text gets inserted into a <li>
-* The <li> is appended to the end of a <ul>
-* When you click the button, the <input> value is cleared
+
+* Add a header that says `"Todo List"`
+* Create a div that contains a `<input type="text">` and a button - Give it a meaningful class name.
+* Create an `<ul>` to contain the todos from your todo list
+* Add an event listener to that button so that when you click the `<button>`, the text from the inputs gets inserted onto the body as a `<li>`
+* Make sure when you click the button, the `<input>` value is cleared
 
 [07_inner-html](workbook/07_inner-html/index.html)
 **Challenge**
-* Create a div that contains a <input type="text"> and a button
-* Create another empty <div>
-* Add placeholder text to the <input>
+* Create a div that contains a `<input type="text">` and a button  - Give them a meaningful class names.
+* Create another empty `<div>`
+* Add placeholder text to the `<input>`
 * Add a header that says "Daily Wisdom"
-* When you click the <button>, the text is inserted into a <p> tag using a template string
-* The <p> gets inserted into the innerHTML of a different <div>
-* When you click the button, the <input> value is cleared
+* When you click the `<button>`, the text is inserted into a `<p>` tag using a template string
+* The `<p>` gets inserted into the innerHTML of a different `<div>`
+* When you click the button, the `<input>` value is cleared
 
 [08_for-each](workbook/08_for-each/index.html)
 **Challenge**

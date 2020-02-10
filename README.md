@@ -15,8 +15,42 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 * Add boilerplate CSS
 
 [01_dom-loaded](workbook/01_dom-loaded/index.html)
+
 **Challenge**
-* Add an event handler tp the JS that is called when the DOM is loaded
+
+* Add an event handler to the JS that is called when the DOM is loaded, two options:
+
+   **Option 1: Using an event handler**
+   ```js
+   window.onload = () => {
+
+   }
+   ```
+   is the same as
+
+   ```js
+   window.onload = function() {
+
+   }
+   ```
+   
+   **Option 2: Using an event listener**
+
+   ```js
+   window.addEventListener('DOMContentLoaded', () => {
+
+   })
+   ```
+   
+   is the same as:
+   
+   ```js
+   window.addEventListener('DOMContentLoaded', function() {
+
+   })
+   ```
+
+
 
 [02_add-to-dom](workbook/02_add-to-dom/index.html)
 **Challenge**

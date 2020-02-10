@@ -115,12 +115,11 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 [09_fetch-api](workbook/09_fetch-api/index.html)
 **Challenge**
 
-* Create a `<button>` that says "Random dog"
-* Add an `<img>` to hold this image
-* Figure out the URL to fetch a random dog image from the [dog.ceo API](https://dog.ceo/dog-api/)
-* Add an event handler to the button to fetch the image
-* use the fetch API to request the image from JS
-* Set the src of an image equal to the response image url
+* Create a `<button>` that says "Random dog" - give it a meaningful class name
+* Add an `<img>` to your page setting the `src` attribute to `"#"`. e.g. `<img src="#">`
+* Use the [dog.ceo API](https://dog.ceo/dog-api/) and get a URL endpoint to fetch a random dog image from the API.
+* Add an event handler to the button that triggers a GET request using `fetch()`. Use the `async/await` syntax to create an async function that will await the data from the API call. 
+* Set the src of an image equal to the response image url.
 
 [10_fetch-api-async-await](workbook/10_fetch-api-async-await/index.html)
 **Challenge**

@@ -10,18 +10,22 @@ function URL(term) {
 function bindSearchButton() {
   const button = document.getElementById("search-characters");
   const input = document.getElementById("character-input");
+  const resultsContainer = document.getElementById("results-container");
   const baseUrl = "https://swapi.co/api/people/";
 
   button.onclick = async () => {
     const searchTerm = input.value;
     const response = await fetch(URL(searchTerm));
     const characters = await response.json();
-    CharacterList(characters);
+    resultsContainer.innerHTML = CharacterList(characters);
   };
 }
 
+function CharacterItem(character) {
+  return `<li>${character.name}</li>`
+}
+
 function CharacterList(characters) {
-  const list = document.getElementById("character-list");
-  const listItems = `${characters.results.map(character => `<li>${character.name}</li>`).join('')}`;
-  list.innerHTML = listItems;
+  const listItems = `${characters.results.map(character => CharacterItem(character)).join('')}`;
+  return `<ul>${listItems}</ul>`;
 }

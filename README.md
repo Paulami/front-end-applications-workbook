@@ -104,12 +104,13 @@ This repo accompanies [Week 3 of the DWD class](https://github.com/itp-dwd/2020-
 [08_for-each](workbook/08_for-each/index.html)
 **Challenge**
 
-* Create a div that contains a `<input type="text">` and a button
+* Create a div that contains a `<input type="text">` and a button - Give them a meaningful class names.
 * Add a header that says "Todo List"
-* When you click the `<button>`, the text is pushed into an array
-* The array is converted to a list of `<li>` strings
-* The `<li>`'s are inserted into the `<ul>` using innerHTML
-* When you click the button, the `<input>` value is cleared
+* Create an empty array in your javascript and assign it to a variable called "todos".
+* Add an event listener to the `<button>`, so that on `click`, the text from the `input` is pushed into the "todos" array.
+* Create an `<ul>` element. 
+* Use the `.forEach()` method on your array to iteratively append `<li>` strings to your `<ul>` with the content from the text in your "todos" array.
+* Make sure the value of your `<input>` is cleared when the button is clicked.
 
 [09_fetch-api](workbook/09_fetch-api/index.html)
 **Challenge**

@@ -155,9 +155,11 @@ Final solution of dog api example
 [13_star-wars-api](workbook/star-wars-api/13_star-wars-api/index.html)
 **Challenge**
 
-* Get a list of characters from the [Star Wars API](https://swapi.co/api/)
-* Write a function that takes this list as JSON and returns a string
-* Set this string to the innerHTML of a div
+* Using the [Star Wars API](https://swapi.co/api/), Get a list of characters using the correct API endpoint.
+* Create a div and give it a class name, "characters"
+* Write a function that uses the `fetch()` function with the correct API URL and options to retrieve this list of characters. 
+  * within this function, take the result of the `fetch()` GET request and `return` a string
+* Call your function and Use the result of your custom function (the string result) and set this string to the innerHTML of the `.characters` div.
 
 [14_code-organization](workbook/star-wars-api/14_code-organization/index.html)
 **Challenge**

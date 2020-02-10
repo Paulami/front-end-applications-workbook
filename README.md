@@ -164,8 +164,9 @@ Final solution of dog api example
 [14_code-organization](workbook/star-wars-api/14_code-organization/index.html)
 **Challenge**
 
-* Use an `<input>` to change the `search` parameter of the star wars api
-* Put different components/event handlers in different files
+* Use an `<input type="text">` to dynamically `search` the star wars api with the value given in the input box. 
+* Create button and attach an event listener to it that, on `click`, will trigger a GET request using the `fetch()` function to retrieve the relevant data of the star wars character. 
+* Organize your code using functional programming. Think about how to break up your components into UI components. 
 
 [15_star-wars-final](workbook/star-wars-api/15_star-wars-final)
 Final solution for Star Wars app
